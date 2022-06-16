@@ -44,6 +44,7 @@ By clicking on the Done button >> it turns blue and the task is crossed out >>
 ![image](https://user-images.githubusercontent.com/67087509/173991832-f5bd792c-de44-4a80-a7fe-376fe1d1297b.png)
 
 When opening the "Inspect element" of the browser, in the tab >> application >> we have all the LocalStorage data saved in the browser! >>
+
 ![image](https://user-images.githubusercontent.com/67087509/173992868-732502ff-70f7-43b8-a9d6-06c036f8bf98.png)
 
 
