@@ -1,0 +1,178 @@
+
+body {
+  margin: 0;
+}
+
+.eu{
+  max-width: 200px;
+  margin-bottom: 24px;
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.todo-list {
+  background-color: #0B2027;
+  font-family: "Space Mono", monospace;
+  padding: 1rem;
+  min-width: 400px;
+  min-height: 300px;
+}
+
+.title {
+  border-bottom: 1px solid rgba(246, 241, 209, 0.5);
+  font-size: 1.5rem;
+  font-family: "BioRhyme", serif;
+  color: #F6F1D1;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-button {
+  border: 10px;
+  background: #F6F1D1;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.form-button:hover {
+  color: #F6F1D1;
+  background: rgba(246, 241, 209, 0.1);
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.todo-list {
+  background-color: #ff8c94;
+  font-family: "Space Mono", monospace;
+  padding: 1rem;
+  min-width: 400px;
+  min-height: 300px;
+}
+
+.title {
+  border-bottom: 1px solid rgba(246, 241, 209, 0.5);
+  font-size: 1.5rem;
+  font-family: "BioRhyme", serif;
+  color: #F6F1D1;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input {
+  border-bottom: 1px solid rgba(246, 241, 209, 0.5);
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 4pxm;
+  width: 300px;
+  margin-left: 0.25rem;
+  margin-right:1.25rem;
+}
+
+.form-input {
+  outline: none;
+  background-color: #F6F1D1;
+  border-color: rgba(255, 255, 255, 0.1);
+  
+}
+
+.form-button { /*esse é o botao do novo item*/
+  background-color: #F6F1D1;
+  outline: none;
+  border-radius: 4px;
+}
+
+.form-button { /*esse é o botao do novo item*/
+  border: 1px;
+  background: #F6F1D1;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 1.25rem;
+  margin-right:1.25rem;
+}
+
+.form-button:hover {
+  color: #F6F1D1;
+  background: #0070c9;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.task {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #F6F1D1;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.check-button, .delete-button {
+  
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+  
+  cursor: pointer;
+  margin-left: auto;
+  margin-right:1.25rem;
+}
+
+.task.done .check-button {
+  background-color: #0070C9;
+  color: #ebe7e6;
+  
+}
+
+.check-icon {
+  display: block;
+  padding: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.task.done .check-icon {
+  background-color: #0f0f0f;
+}
+
+.content {
+  margin: 0;
+}
+
+.task.done .content {
+  text-decoration: line-through;
+  
+}
+
+.content-data{
+  color: #ebe7e6;
+}
+
