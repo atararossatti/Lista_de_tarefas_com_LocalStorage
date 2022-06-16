@@ -47,4 +47,4 @@ When opening the "Inspect element" of the browser, in the tab >> application >> 
 ![image](https://user-images.githubusercontent.com/67087509/173992868-732502ff-70f7-43b8-a9d6-06c036f8bf98.png)
 
 
-
+Thanks!
